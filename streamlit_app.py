@@ -3,12 +3,12 @@ import matplotlib.pyplot as plt
 
 # Function to create a simple globe icon
 def create_globe_icon():
-    fig, ax = plt.subplots(figsize=(0.25, 0.25), dpi=100)  # Adjust the figsize to make the globe smaller
+    fig, ax = plt.subplots(figsize=(0.5, 0.5), dpi=100)  # Adjust the figsize to make the globe smaller
     ax.set_aspect('equal')
     ax.set_axis_off()
 
     # Draw the globe (circle)
-    circle = plt.Circle((0.5, 0.5), 0.4, color='deepskyblue', ec='black', lw=0.5)
+    circle = plt.Circle((0.5, 0.5), 0.4, color='deepskyblue', ec='black', lw=2)
     ax.add_patch(circle)
 
     # Draw simple continents
