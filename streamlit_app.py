@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Function to create a simple globe icon
 def create_globe_icon():
-    fig, ax = plt.subplots(figsize=(1, 1), dpi=100)  # Adjust the figsize to make the globe smaller
+    fig, ax = plt.subplots(figsize=(0.5, 0.5), dpi=100)  # Adjust the figsize to make the globe smaller
     ax.set_aspect('equal')
     ax.set_axis_off()
 
